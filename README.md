@@ -1,6 +1,8 @@
-# Do you want to decrease the brightness of your laptop screen beyond limitations set using buttons on your Linux(or Ubuntu specifically)?
+# Decrease or Increase the brighness of Laptop Screen in Ubuntu(or Linux)
 
-Here is a solution! This is now made simple to work with.
+Do you want to decrease the brightness of your laptop screen beyond limitations set using buttons on your Linux(or Ubuntu specifically)?
+
+Here is a solution
 
 Just Open Terminal and Enter the following commands-
 
