@@ -25,26 +25,26 @@ Decrease or Increase brightness on Ubuntu crossing limits(of minimum and maximum
 On executing the script, the value will dim the brightness.
 To adjust to the value you need, please go through the following instructions-
 
-        Open Terminal
+        1. Open Terminal
 
-        Enter the following command:
+        2. Enter the following command:
 
 	        cat /sys/class/backlight/intel_backlight/brightness
 
-        Write down the resulting value (1200 in my case)
+        3. Write down the resulting value (1200 in my case)
 
-        Divide value by 6 and write it down (200 in my case)
+        4. Divide value by 6 and write it down (200 in my case)
 
-        Enter the following in the terminal, replacing 200 with your value:
+        5. Enter the following in the terminal, replacing 200 with your value:
 
         	vi brightness.sh
 
-	After editing the value, run the script-
+	6. After editing the value, run the script-
 
             ./brightness.sh
 
-        Close Terminal
+        7. Close Terminal
 
         For future usage of the last command, open Terminal, press Ctrl and R together, start typing brightness. When the last command appears, just press Enter.
 
-    It works for me on a DELL XPS 15 with Ubuntu 14.04. It is supposed to work on almost all Ubuntu platforms.
+    It works for me on a DELL XPS 15 with Ubuntu 14.04. It is supposed to work on almost all Ubuntu versions(Tested on 12.04+) and most Dell or Lenovo laptops.
